@@ -5,6 +5,15 @@
         <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
         <title>Illumineering — Coming soon</title>
         <style>
+            @font-face {
+                font-family: 'AbhayaLibre-ExtraBold';
+                src: url('fonts/AbhayaLibre-ExtraBold.ttf') format('truetype');
+            }
+            @font-face {
+                font-family: 'AbhayaLibre-Regular';
+                src: url('fonts/AbhayaLibre-Regular.ttf') format('truetype');
+            }
+
             body {
                 align-items: center;
                 display: flex;
@@ -12,14 +21,31 @@
                 font-family: sans-serif;
                 justify-content: center;
                 margin-bottom: 20%;
-                background-color: #f7c2a1;
+                background-color: #0D1B4B;
             }
-            h1 { color: #a60303; }
-            p { color: #0c1947; }
+            h1 { 
+                color: #FFC9A7;
+                font-family: AbhayaLibre-ExtraBold;
+                font-size: 4rem;
+                margin: 0;
+            }
+            h4 {
+                font-family: AbhayaLibre-Regular;
+                font-size: 1.6em;
+                margin: 0;
+            }
+            h4, h1 > span { color: #5474ED; }
+            footer {
+                bottom: 0;
+                color: #ccc;
+                position: absolute;
+                margin: 24px;
+            }
         </style>
     </head>
     <body>
-        <h1>Illumineering</h1>
-        <p>Coming soon</p>
+        <h1>Illumineering<span>.</span></h1>
+        <h4>Coming soon</h4>
+        <footer>Illumineering © 2023 — All Right reserved</footer>
     </body>
 </html>
